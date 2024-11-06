@@ -1,0 +1,99 @@
+.contact{
+  background-color: rgb(241, 241, 241);
+  padding: 0 200px;
+  color: rgb(24, 33, 83);
+}
+
+.contact__header{
+  text-align: center;
+  padding: 40px;
+  border-bottom: 1px solid white;
+}
+
+.contact__item{
+  padding: 50px;
+  display: flex;
+  gap: 50px;
+  height: 360px;
+}
+
+.contact__form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact__form input{
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.contact__input_container{
+  display: flex;
+}
+
+.contact__input_name,.contact__input_email{
+  width: 200px;
+}
+
+.contact__input_email{
+  margin-left: 10px;
+}
+
+.contact__input_massage{
+  height: 100px !important;
+  padding-bottom: 60px !important;
+}
+
+.contact__button{
+  background-color: rgb(24, 33, 83);
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: .3s all;
+}
+
+.contact__button:hover{
+  background-color: rgb(39, 52, 126);
+}
+
+.contact__name{
+  margin-bottom: 5px;
+}
+
+.contact__info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  opacity: 0;
+  margin-top: 50px;
+}
+
+.contact__info_active{
+  opacity: 1;
+  margin-top: 0;
+}
+
+.contact__icons{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.contact__icons img{
+  width: 25px;
+}
+
+.contact__line{
+  width: 2px;
+  height: 360px;
+  background-color: white;
+  transform: translateY(-50px);
+}

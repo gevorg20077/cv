@@ -1,0 +1,15 @@
+.about_me{
+  padding: 180px 0 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  color: rgb(24, 33, 83);
+}
+
+.about_me__text{
+  width: 500px;
+  text-align: center;
+  line-height: 30px;
+}
