@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.38be621f.css",
-    "main.js": "/cv/static/js/main.36d911a3.js",
+    "main.css": "/cv/static/css/main.0163ec44.css",
+    "main.js": "/cv/static/js/main.146445f5.js",
     "static/media/IMG_3160.jpg": "/cv/static/media/IMG_3160.2e93bdccb3b54e3d1831.jpg",
     "static/media/Smart-Code.png": "/cv/static/media/Smart-Code.cf140991ae89ad7c1d57.png",
     "static/media/c7bfcc2a-d37c-4f66-8d38-ac627a848ebe-small.png": "/cv/static/media/c7bfcc2a-d37c-4f66-8d38-ac627a848ebe-small.6a613cbf5c1de7c54cc8.png",
     "static/media/268274704_112787021249917__n.png": "/cv/static/media/268274704_112787021249917_4858696226403130286_n.dd2b9d135dc8ec6ed820.png",
     "static/media/webp": "/cv/static/media/0fdef751204647a3bbd7eaa2827ed4f9.ed7f662dd52768a9682c.webp",
     "index.html": "/cv/index.html",
-    "main.38be621f.css.map": "/cv/static/css/main.38be621f.css.map",
-    "main.36d911a3.js.map": "/cv/static/js/main.36d911a3.js.map"
+    "main.0163ec44.css.map": "/cv/static/css/main.0163ec44.css.map",
+    "main.146445f5.js.map": "/cv/static/js/main.146445f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.38be621f.css",
-    "static/js/main.36d911a3.js"
+    "static/css/main.0163ec44.css",
+    "static/js/main.146445f5.js"
   ]
 }
