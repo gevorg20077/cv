@@ -29,3 +29,49 @@
 .menu__link:hover{
   color: rgb(174,180,212);
 }
+
+.menu__mini{
+  background-color: transparent;
+  border: none;
+}
+
+.menu__link_new{
+  color: white;
+  text-decoration: none;
+}
+
+.menu__new_active{
+  position: fixed;
+  background-color: rgb(24, 33, 83);
+  color: white;
+  right: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 80px 40px 40px;
+  top: 0;
+  z-index: 10;
+  height: 100%;
+}
+
+.menu__new_active a{
+  cursor: pointer;
+}
+
+.close_button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  position: absolute;
+  top: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .menu__name{
+    font-size: 25px;
+  }
+  .menu__link{
+    font-size: 12px;
+  }
+}

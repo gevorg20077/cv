@@ -9,7 +9,7 @@ const Contact = () => {
   useEffect(() => {
     const handleScroll = () => {
       const newScrollPosition = window.scrollY;
-  console.log(window.scrollY);
+  // console.log(window.scrollY);
       
       setIsContactActive(newScrollPosition >= 2600);
     };

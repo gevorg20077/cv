@@ -1,4 +1,4 @@
-.about_me{
+.about_me {
   padding: 180px 0 100px;
   display: flex;
   flex-direction: column;
@@ -8,8 +8,19 @@
   color: rgb(24, 33, 83);
 }
 
-.about_me__text{
+.about_me__text {
   width: 500px;
   text-align: center;
   line-height: 30px;
+}
+
+@media only screen and (max-width: 650px) {
+  .about_me {
+    padding: 290px 0 120px;
+  }
+
+  .about_me__text {
+    width: 100%;
+    padding: 10px;
+  }
 }

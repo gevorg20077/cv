@@ -1,4 +1,4 @@
-.education__header{
+.education__header {
   text-align: center;
   padding: 30px;
   border-top: 1px solid rgb(241, 241, 241);
@@ -8,7 +8,7 @@
   color: rgb(24, 33, 83);
 }
 
-.education__dates{
+.education__dates {
   display: flex;
   flex-direction: column;
   gap: 130px;
@@ -18,23 +18,23 @@
   text-align: right;
 }
 
-.education__date{
+.education__date {
   opacity: 0;
   color: rgb(24, 33, 83);
 }
 
-.education__date_active{
+.education__date_active {
   opacity: 1;
 }
 
-.education__works{
+.education__works {
   padding: 50px;
   display: flex;
   gap: 60px;
   margin-left: 200px;
 }
 
-.education__abouts{
+.education__abouts {
   width: 500px;
   line-height: 25px;
   display: flex;
@@ -44,22 +44,22 @@
   color: rgb(24, 33, 83);
 }
 
-.education__about{
+.education__about {
   transform: translateX(100px);
   opacity: 0;
 }
 
-.education__about_active{
+.education__about_active {
   transform: translateX(0);
   opacity: 1;
 }
 
-.education__about_header{
+.education__about_header {
   font-size: 18px;
   font-weight: 900;
 }
 
-.education__circle{
+.education__circle {
   width: 10px;
   height: 10px;
   background-color: rgb(24, 33, 83);
@@ -68,24 +68,109 @@
   left: -65px;
 }
 
-.education__circle_1{
+.education__circle_1 {
   transform: translateY(50px);
 }
 
-.education__circle_active1{
+.education__circle_active1 {
   transform: translateY(6px);
 }
 
-.education__circle_2{
+.education__circle_2 {
   transform: translateY(270px);
 }
 
-.education__circle_active2{
+.education__circle_active2 {
   transform: translateY(157px);
 }
 
 @media only screen and (max-width: 1250px) {
-  .education__works{
+  .education__works {
     margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .education__about_text {
+    font-size: 12px;
+    width: 400px;
+  }
+
+  .education__about_header {
+    font-size: 14px;
+  }
+
+  .education__date h3 {
+    font-size: 14px;
+  }
+
+  .education__date p {
+    font-size: 12px;
+  }
+
+  .education__dates {
+    gap: 138px;
+  }
+
+  .education__works {
+    margin-left: -50px;
+    padding: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .education__about {
+    transform: translateX(200px);
+  }
+
+  .education__about_active {
+    transform: translateX(100px);
+  }
+
+  .education__about_text {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .education__about_header {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .education__about {
+    transform: translate(100px, 100px) !important;
+  }
+
+  .education__about_active {
+    transform: translate(100px, 0) !important;
+  }
+
+  .education__abouts {
+    width: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .education__about {
+    width: 300px;
+  }
+
+  .education__about_header {
+    width: 80%;
+  }
+
+  .education__about_text {
+    width: 80%;
+  }
+
+  .education__works {
+    margin-left: -80px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .education__works {
+    padding: 20px 0;
   }
 }

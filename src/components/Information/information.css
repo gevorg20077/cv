@@ -73,7 +73,6 @@
 .information__contact {
   background-color: rgb(24, 33, 83);
   width: 900px;
-  z-index: 1;
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -84,10 +83,81 @@
   z-index: 0;
 }
 
-.information__contact_active{
+.information__contact_active {
   top: 680px;
 }
 
 .information__contact_image {
   width: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+  .information__item {
+    height: 350px;
+  }
+
+  .information__image {
+    width: 350px;
+  }
+
+  .information__text {
+    padding: 30px;
+  }
+
+  .information__contact {
+    top: 580px;
+    width: 712px;
+    z-index: 1;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .information__item {
+    height: 250px;
+  }
+
+  .information__image {
+    width: 250px;
+  }
+
+  .information__name {
+    font-size: 20px;
+  }
+
+  .information__profession {
+    font-size: 14px !important;
+  }
+
+  .information__text {
+    gap: 10px;
+  }
+
+  .information__text h3 {
+    font-size: 12px;
+  }
+
+  .information__text p {
+    font-size: 10px;
+  }
+
+  .information__contact {
+    top: 480px;
+    width: 499px;
+  }
+
+  .information__background {
+    height: 520px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .information__item {
+    flex-direction: column;
+    margin-top: 110px;
+  }
+  .information__contact {
+    top: 570px;
+    width: 250px;
+    padding: 8px 20px;
+  }
 }
