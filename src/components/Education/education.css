@@ -1,3 +1,8 @@
+.education {
+  display: flex;
+  justify-content: center;
+}
+
 .education__header {
   text-align: center;
   padding: 30px;
@@ -113,7 +118,7 @@
   }
 
   .education__works {
-    margin-left: -50px;
+    /* margin-left: -50px; */
     padding: 50px 0;
   }
 }
@@ -135,6 +140,10 @@
   .education__about_header {
     font-size: 20px;
   }
+
+  .education__works {
+    margin-left: -100px;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -148,6 +157,10 @@
 
   .education__abouts {
     width: 350px !important;
+  }
+
+  .education__works {
+    margin-left: -100px;
   }
 }
 
@@ -165,12 +178,18 @@
   }
 
   .education__works {
-    margin-left: -80px;
+    margin-left: -150px;
   }
 }
 
 @media only screen and (max-width: 650px) {
   .education__works {
     padding: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .education__works {
+    width: 320px;
   }
 }

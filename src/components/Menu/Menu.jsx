@@ -36,13 +36,13 @@ const Menu = () => {
   }
   const clickSkills = () => {
     window.scrollTo({
-      top: isMenu ? 2450 : 2468,
+      top: isMenu ? 2300 : 2380,
       behavior: 'smooth'
     });
   }
   const clickContacts = () => {
     window.scrollTo({
-      top: isMenu ? 3430 : 2980,
+      top: isMenu ? 3270 : 2985,
       behavior: 'smooth'
     });
   }

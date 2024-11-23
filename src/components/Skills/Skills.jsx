@@ -26,25 +26,26 @@ const Skills = () => {
         <div className="skills__background">
           <div className="skills__background_filter"></div>
         </div>
-        <div className={`skills__item ${isSkillActive1 ? 'skills__item_active' : ''}`}>
-          <p>HTML - Advanced</p>
+        <div className="skills__items_container">
+          <div className={`skills__item ${isSkillActive1 ? 'skills__item_active' : ''}`}>
+            <p>HTML - Advanced</p>
+          </div>
+          <div className={`skills__item ${isSkillActive1 ? 'skills__item_active' : ''}`}>
+            <p>CSS - Advanced</p>
+          </div>
+          <div className={`skills__item ${isSkillActive2 ? 'skills__item_active' : ''}`}>
+            <p>JavaScript - Intermediate</p>
+          </div>
+          <div className={`skills__item ${isSkillActive2 ? 'skills__item_active' : ''}`}>
+            <p>React.js - Intermediate</p>
+          </div>
+          <div className={`skills__item ${isSkillActive3 ? 'skills__item_active' : ''}`}>
+            <p>Russian - Fluent</p>
+          </div>
+          <div className={`skills__item ${isSkillActive3 ? 'skills__item_active' : ''}`}>
+            <p>English - Pre-intermediate</p>
+          </div>
         </div>
-        <div className={`skills__item ${isSkillActive1 ? 'skills__item_active' : ''}`}>
-          <p>CSS - Advanced</p>
-        </div>
-        <div className={`skills__item ${isSkillActive2 ? 'skills__item_active' : ''}`}>
-          <p>JavaScript - Intermediate</p>
-        </div>
-        <div className={`skills__item ${isSkillActive2 ? 'skills__item_active' : ''}`}>
-          <p>React.js - Intermediate</p>
-        </div>
-        <div className={`skills__item ${isSkillActive3 ? 'skills__item_active' : ''}`}>
-          <p>Russian - Fluent</p>
-        </div>
-        <div className={`skills__item ${isSkillActive3 ? 'skills__item_active' : ''}`}>
-          <p>English - Pre-intermediate</p>
-        </div>
-
       </div>
     </div>
   )

@@ -1,3 +1,8 @@
+.experience {
+  display: flex;
+  justify-content: center;
+}
+
 .experience__header {
   text-align: center;
   padding: 30px;
@@ -122,7 +127,7 @@
   }
 
   .experience__works {
-    margin-left: 50px;
+    margin-left: 125px;
     padding: 50px 0;
   }
 }
@@ -136,11 +141,15 @@
   .experience__about_header {
     font-size: 20px;
   }
+
+  .experience__works {
+    margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 650px) {
   .experience__works {
-    margin-left: -50px;
+    margin-left: -100px;
     padding: 20px 0;
   }
 
@@ -167,6 +176,12 @@
   }
 
   .experience__works {
-    margin-left: -80px;
+    margin-left: -150px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .experience__works {
+    width: 320px;
   }
 }
